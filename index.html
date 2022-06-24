@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/estilos.css">
+
+    <title>Bingo</title>
+</head>
+
+<body class="container-principal">
+        <header class="cabecalho" >
+                <div class="logo">
+                   <img class="logo__imagem" src="./img/logo.png" alt="Logotipo da Festa" style="height: 100%;"> 
+                </div>
+        </header>
+
+        <div class="topo-direito">
+              <div class="topo-direito__painel-opcoes">
+                    <form action="_self">
+                        <label for="qtd-numeros" class="label-input label-input--menor">Quantidade de Números</label>
+                        <input type="range" value="75" name="qtd-numeros" step="5" min="5" max="90" required class="qtd-numeros">
+                        <span class="exibe-valor label-input">5</span>
+                    </form>
+                    <button class="botao-gerar">Gerar Tabela</button>
+                    <button class="botao-reiniciar">Reiniciar</button>
+              </div>
+
+              <div class="topo-direito__ultimas-chamadas">
+                <label class="label-input chamados-label" for="ult-chamados">Últimos Números chamados</label>
+                <input type="text" class="ult-chamados" name="ult-chamados" readonly>
+              </div>
+    
+        </div>
+
+        <main class="cartela-container" >
+
+            <table class="cartela_tabela display-none" id="cartela_tabela">
+                <tr class="linha-cabecalho-tabela">
+                  <th linha-cabecalho-tabela>B</th>
+                  <th linha-cabecalho-tabela>I</th>
+                  <th linha-cabecalho-tabela>N</th>
+                  <th linha-cabecalho-tabela>G</th>
+                  <th linha-cabecalho-tabela>O</th>
+                </tr>
+                
+            </table>
+                
+        </main>
+
+        <aside class="imagens-lateral-container">
+    
+            <div class="tv">
+                <img class="tv__imagem" src="./img/tv.png" alt="Tv LCD">
+            </div>
+            <div class="fogueira">
+                <img class="fogueira__imagem" src="./img/fogueira.png" alt="Desenho de uma fogueira acesa">
+            </div>
+            <div class="logo-colegio">
+                <img class="logo-colegio__imagem" src="img/logo-nome-master.png" Logotipo do colégio Master">
+            </div>
+        </aside>
+ 
+</body>
+
+<script src="./js/principal.js"></script>
+</html>
