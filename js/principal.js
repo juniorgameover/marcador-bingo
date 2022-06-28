@@ -4,7 +4,7 @@ let exibeRange = document.querySelector('.exibe-valor');
 exibeRange.textContent = inputRange.value;
 
 
-inputRange.addEventListener('change', function (){
+inputRange.addEventListener('input', function (){
     exibeRange.textContent = inputRange.value;
 })
 
