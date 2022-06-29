@@ -1,5 +1,6 @@
 .container-principal {
-    background-image: url('../img/fundo-cabecalho.jpg');
+    background-image: url('../img/fundo-body.jpg');
+    background-size: contain;
     display: grid;
     grid-template-areas: 
     "logo chamador" 
@@ -8,7 +9,6 @@
     grid-template-columns: 25% 75%;
     background-color: antiquewhite;
     height: 100vh;
-
 }
 
 .cabecalho {
@@ -19,6 +19,7 @@
 .logo {
     height: 100%;
 }
+
 
 .topo-direito {
     grid-area: "chamador";
@@ -94,15 +95,14 @@ form {
 }
 
 .balao__imagem {
-    height: 100%;
+    height: 90%;
 }
 
-.tv {
+.moedas {
     height: 40%;
-
 }
 
-.tv__imagem {
+.moedas__imagem {
     height: 100%;
 }
 
