@@ -195,7 +195,9 @@ td {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 2rem;
     color: rgb(0, 0, 0);
-    background-image: url('./img/fundo-tabela.jpg');
     background-size: 10%;
+    width: 20%;
+
+   
    
   }
